@@ -18,3 +18,5 @@ add_executable(13_10_zad9 "13-10 Chciwe Algorytmy/zad9.cpp")
 add_executable(27_10_zad9 "27-10 Liczby Pierwsze/zad9.cpp")
 add_executable(27_10_zad10 "27-10 Liczby Pierwsze/zad10.cpp")
 add_executable(27_10_zad11 "27-10 Liczby Pierwsze/zad11.cpp")
+
+add_executable(03_11_zad1 "03-11 Dzialania na systemach/zad1.cpp")
