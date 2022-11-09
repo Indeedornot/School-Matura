@@ -20,3 +20,4 @@ add_executable(27_10_zad10 "27-10 Liczby Pierwsze/zad10.cpp")
 add_executable(27_10_zad11 "27-10 Liczby Pierwsze/zad11.cpp")
 
 add_executable(03_11_zad1 "03-11 Dzialania na systemach/zad1.cpp")
+add_executable(10_11_zad11 "10-11 WaterJugs/zad11.cpp")
