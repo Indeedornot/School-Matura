@@ -24,3 +24,11 @@ add_executable(11_10_zad11 "10-11 WaterJugs/zad11.cpp")
 
 add_executable(11_17_cezar "11-17 Szyfry/cezar.cpp")
 add_executable(11_17_vigenere "11-17 Szyfry/vigenere.cpp")
+
+add_executable(11_24_162-zad8 "11-24 Poszukujemy liczb/162-zad8.cpp")
+add_executable(11_24_162-zad9 "11-24 Poszukujemy liczb/162-zad9.cpp")
+
+add_executable(11_24_181-zad8 "11-24 Poszukujemy liczb/181-zad8.cpp")
+add_executable(11_24_181-zad9 "11-24 Poszukujemy liczb/181-zad9.cpp")
+add_executable(11_24_189-zad4 "11-24 Poszukujemy liczb/189-zad4.cpp")
+add_executable(11_24_189-zad6 "11-24 Poszukujemy liczb/189-zad6.cpp")

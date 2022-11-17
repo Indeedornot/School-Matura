@@ -51,8 +51,8 @@ string vigenere(string key, string line, bool reverse = false){
 }
 
 int main() {
-    ifstream fileIn("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\11-17 Szyfry\\vigenere.txt");
-    ofstream fileOut("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\11-17 Szyfry\\vigenereOut.txt");
+    ifstream fileIn("vigenere.txt");
+    ofstream fileOut("vigenereOut.txt");
 
     string key; //example: "cover"
     cin >> key;

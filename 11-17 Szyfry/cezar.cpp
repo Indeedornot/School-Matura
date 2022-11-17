@@ -87,8 +87,8 @@ vector<int> frequency(string message){
 
 int main() {
 //region szyfrowanie
-    ifstream textIn("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\11-17 Szyfry\\cezar.txt");
-    fstream cypherOut("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\11-17 Szyfry\\cezarOut.txt", fstream::out | fstream::in);
+    ifstream textIn("cezar.txt");
+    fstream cypherOut("cezarOut.txt", fstream::out | fstream::in);
 
     int key = 2;
 
