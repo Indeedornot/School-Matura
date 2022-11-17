@@ -3,21 +3,24 @@ project(Matura)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(29_09_zad11 "29-09 Dzialania na liczbach/zad11.cpp")
-add_executable(29_09_zad13 "29-09 Dzialania na liczbach/zad13.cpp")
-add_executable(29_09_zad14 "29-09 Dzialania na liczbach/zad14.cpp")
-add_executable(29_09_zad15 "29-09 Dzialania na liczbach/zad15.cpp")
+add_executable(09_29_zad11 "09-29 Dzialania na liczbach/zad11.cpp")
+add_executable(09_29_zad13 "09-29 Dzialania na liczbach/zad13.cpp")
+add_executable(09_29_zad14 "09-29 Dzialania na liczbach/zad14.cpp")
+add_executable(09_29_zad15 "09-29 Dzialania na liczbach/zad15.cpp")
 
-add_executable(06_10_silniowy "06-10 Systemy Liczbowe/silniowy.cpp")
-add_executable(06_10_trojkowy "06-10 Systemy Liczbowe/trojkowy.cpp")
+add_executable(10_06_silniowy "10-06 Systemy Liczbowe/silniowy.cpp")
+add_executable(10_06_trojkowy "10-06 Systemy Liczbowe/trojkowy.cpp")
 
-add_executable(13_10_zad7 "13-10 Chciwe Algorytmy/zad7.cpp")
-add_executable(13_10_zad8 "13-10 Chciwe Algorytmy/zad8.cpp")
-add_executable(13_10_zad9 "13-10 Chciwe Algorytmy/zad9.cpp")
+add_executable(10_13_zad7 "10-13 Chciwe Algorytmy/zad7.cpp")
+add_executable(10_13_zad8 "10-13 Chciwe Algorytmy/zad8.cpp")
+add_executable(10_13_zad9 "10-13 Chciwe Algorytmy/zad9.cpp")
 
-add_executable(27_10_zad9 "27-10 Liczby Pierwsze/zad9.cpp")
-add_executable(27_10_zad10 "27-10 Liczby Pierwsze/zad10.cpp")
-add_executable(27_10_zad11 "27-10 Liczby Pierwsze/zad11.cpp")
+add_executable(10_27_zad9 "10-27 Liczby Pierwsze/zad9.cpp")
+add_executable(10_27_zad10 "10-27 Liczby Pierwsze/zad10.cpp")
+add_executable(10_27_zad11 "10-27 Liczby Pierwsze/zad11.cpp")
 
-add_executable(03_11_zad1 "03-11 Dzialania na systemach/zad1.cpp")
-add_executable(10_11_zad11 "10-11 WaterJugs/zad11.cpp")
+add_executable(11_03_zad1 "11-03 Dzialania na systemach/zad1.cpp")
+add_executable(11_10_zad11 "10-11 WaterJugs/zad11.cpp")
+
+add_executable(11_17_cezar "11-17 Szyfry/cezar.cpp")
+add_executable(11_17_vigenere "11-17 Szyfry/vigenere.cpp")
