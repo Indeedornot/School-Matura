@@ -14,8 +14,8 @@ using namespace std;
 
 //for sorted arrays only!
 int search(vector<int> arr, int num, int l = 0, int p = -1){
-    p = (p == -1) ? arr.size() : p;
-    int sr;
+    p = (p == -1) ? arr.size() - 1 : p;
+	int sr;
 
     while(l <= p){
         sr = (l+p)/2;
@@ -25,10 +25,10 @@ int search(vector<int> arr, int num, int l = 0, int p = -1){
         }
 
         if(arr[sr] < num){
-            p = sr - 1;
+        	l = sr + 1;
         }
         else {
-            l = sr + 1;
+            p = sr - 1;
         }
     }
 
@@ -40,6 +40,7 @@ vector<int> findNumbers(int from, int to, vector<int> arr){
     vector<int> numbers;
     int index;
 
+	cout << arrCopy.size() << endl;
     for(int i = from; i <= to; i++){
         index = search(arrCopy, i);
         if(index == -1) continue;
