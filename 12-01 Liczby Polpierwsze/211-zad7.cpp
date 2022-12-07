@@ -30,8 +30,8 @@ void subsumVoid(vector<int> num, int index, int sum, vector<int> subset){
     subsumVoid(num, index + 1, sum, subset);
 
     //solve yourself
-    subset.push_back(num[index + 1]);
-    subsumVoid(num, index + 1, sum - num[index + 1], subset);
+    subset.push_back(num[index]);
+    subsumVoid(num, index + 1, sum - num[index], subset);
 }
 
 int main(){
