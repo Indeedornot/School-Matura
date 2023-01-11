@@ -1,0 +1,10 @@
+algorytm sortowania przez wybieranie
+algorytm rekurencyjny
+algorytm iteracyjny
+algorytm sortowania przez wstawianie
+algorytm sortowania przez prosta zamiane
+algorytm naiwny
+algorytm obliczania silni iteracyjny
+algorytm obliczania silni rekurencyjny
+algorytm
+algorytm obliczania silni
