@@ -19,7 +19,7 @@ int main() {
     set<int> uniqueNums;
     int bucketCount;
 
-    ifstream iStream("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\01-05 ONP LAB\\zad6.txt");
+    ifstream iStream("C:\\Users\\Indeed\\Desktop\\Stuff\\Repositories\\CPP\\Matura\\01-05 ONP LAB\\61-zad6.txt");
 
     stringstream sStream;
     while(getline(iStream, sLine)){

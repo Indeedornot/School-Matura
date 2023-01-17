@@ -1,0 +1,12 @@
+5.4:
+Select rodzaj, COUNT(id_pobytu) AS ilosc
+From uslugi_dodatkowe
+Group by rodzaj
+
+5.5:
+Select klienci.nr_dowodu,imie,nazwisko,SUM(cena_uslugi) AS Lacznie
+From(uslugi_dodatkowe INNER JOIN noclegi
+ON uslugi_dodatkowe.id_pobytu = noclegi.id_pobytu)
+Inner join klienci ON klienci.nr_dowodu=noclegi.nr_dowodu
+//From - polacz uslugi dodatkowe z noclegami i potem polacz z klientami
+GROUP BY klienci.nr_dowodu,imie,nazwisko
